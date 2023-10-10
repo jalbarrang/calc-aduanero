@@ -77,16 +77,17 @@ function App() {
       </main>
 
       <footer>
-        <small>Fuentes: </small>
-        <ul>
-          <li><a href="https://www.aduana.cl/tips-compradoronlineexperto/aduana/2018-12-13/171734.html" target='_blank'>TIPS #CompradorOnlineExperto</a></li>
-          <li><a href="https://www.aduana.cl/compras-por-internet-en-el-extranjero-lo-que-debo-saber/aduana/2018-12-12/133921.html" target='_blank'>Compras por internet en el extranjero: lo que debo saber</a></li>
-          <li><a href="https://www.aduana.cl/aduana/site/artic/20181212/pags/20181212233227.html" target='_blank'>¿Cuándo debo pagar Impuestos?</a></li>
-        </ul>
-
         <span>
-          by <a href="https://github.com/jalbarrang" target='_blank'>jalbarrang</a> 2023
+          by <a href="https://github.com/jalbarrang" target='_blank'>jalbarrang</a> - 2023
         </span>
+        <div>
+          <span>Fuentes: </span>
+          <ul>
+            <li><a href="https://www.aduana.cl/tips-compradoronlineexperto/aduana/2018-12-13/171734.html" target='_blank'>TIPS #CompradorOnlineExperto</a></li>
+            <li><a href="https://www.aduana.cl/compras-por-internet-en-el-extranjero-lo-que-debo-saber/aduana/2018-12-12/133921.html" target='_blank'>Compras por internet en el extranjero: lo que debo saber</a></li>
+            <li><a href="https://www.aduana.cl/aduana/site/artic/20181212/pags/20181212233227.html" target='_blank'>¿Cuándo debo pagar Impuestos?</a></li>
+          </ul>
+        </div>
       </footer>
     </>
   )
