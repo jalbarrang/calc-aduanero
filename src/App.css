@@ -57,7 +57,7 @@ hr {
   border-top: 1px solid #ccc;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 420px) {
   input {
     font-size: 1.1rem;
   }

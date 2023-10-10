@@ -38,9 +38,17 @@ function App() {
           <div className='form-group'>
             <label htmlFor="product-price">Valor producto (USD)</label>
             <div>
-              <input name="product-price" value={productValue} type='number' onChange={(e) => {
-                setProductValue(parseInt(e.target.value))
-              }} />
+              <input
+                name="product-price"
+                value={productValue}
+                type='number'
+                min={0}
+                step={0.01}
+                onChange={(e) => {
+                  const value = parseFloat(e.target.value)
+                  if (isNaN(value)) return
+                  setProductValue(value)
+                }} />
             </div>
           </div>
 
